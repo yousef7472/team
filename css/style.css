@@ -842,3 +842,6 @@ section .container-top {
     }
     
 }
+footer a img {
+	width: 100%;
+}
