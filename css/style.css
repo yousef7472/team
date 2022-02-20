@@ -375,6 +375,12 @@ header .video button {
         margin-right: 0px;
     }
 }
+@media screen and (max-width: 450px) {
+	nav input[type=checkbox]:checked + .quick-links a {
+	    width: 170%;
+	    text-align: left;
+	    font-size: 18px;
+	}
 
 .bb {
     height: 50px;
