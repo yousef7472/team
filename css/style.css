@@ -607,22 +607,22 @@ section .container-top {
 	text-align: center;
 }
 .home .carousel .one {
-    background-image: url('./../images/slide-1.jpg');
+    background-image: url('./../images/slide-1.webp');
 }
 .home .carousel .two {
-    background-image: url('./../images/slide-2.jpg');
+    background-image: url('./../images/slide-2.webp');
 }
 .home .carousel .three {
-    background-image: url('./../images/slide-3.jpg');
+    background-image: url('./../images/slide-3.webp');
 }
 .home .carousel-controls ol li:first-of-type {
-    background-image: url('./../images/slide-1.jpg');
+    background-image: url('./../images/slide-1.webp');
 }
 .home .carousel-controls ol li:nth-of-type(2) {
-    background-image: url('./../images/slide-2.jpg');
+    background-image: url('./../images/slide-2.webp');
 }
 .home .carousel-controls ol li:nth-of-type(3) {
-    background-image: url('./../images/slide-3.jpg');
+    background-image: url('./../images/slide-3.webp');
 }
 .home .slide h2 {
     font-size: 42px;
