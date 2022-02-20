@@ -381,6 +381,7 @@ header .video button {
 	    text-align: left;
 	    font-size: 18px;
 	}
+}
 
 .bb {
     height: 50px;
@@ -388,9 +389,8 @@ header .video button {
 }
 /*            end header                */
 
-/*                     start  trip section       */
+/*                     start  trip style       */
 
-  /*start book-title*/
   .trip-container {
     width: 100%;
   }
@@ -409,16 +409,13 @@ header .video button {
   h2.b-title{
     font-size: 40px;
   }
-  /*end book-title*/
-  
-  /*start book-next-trip*/
   .book-next-trip{
     display: flex;
     margin: 50px;
     padding: 20px;
     overflow: hidden;
   }
-  /* start choose section */
+ 
   .choose{
     width: 100%;
   }
@@ -456,10 +453,6 @@ header .video button {
   .details-ch .detail{
     color: rgba(0, 0, 0, 0.5);
   }
-  /* end choose section */
-  
-  /* start trip section */
-
   .box-shadow{
         background: white;
       box-shadow: 4px 3px 8px 1px #969696;
@@ -534,8 +527,8 @@ header .video button {
     }
 
 }
-  /* End trip section */
-/*                start TOP Destinations section           */
+  /*        End trip style      */
+/*                start TOP Destinations style          */
 section .container-top {
     width: 90%;
     margin: auto;
