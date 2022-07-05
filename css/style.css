@@ -11,9 +11,10 @@ body {
 /*             start loader style          */ 
 .loader {
     display: flex;
-    position: relative;
-    width: 100%;
+    position: absolute;
     height: 100px;
+    top: 48%;
+    z-index: 99;
 }
 .loaderi {
     width: 40px;
