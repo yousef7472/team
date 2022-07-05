@@ -20,40 +20,40 @@ body {
     position: absolute;
     border: 1px solid #eee;
 }
-.loader .two {
+.loaderi.two {
     left: 440px;
 }
-.loader .one {
+.loadei.one {
     left: 400px;
 }
-.loader .three {
+.loaderi.three {
     top: 45%;
     left: 400px;
 }
-.loader .four {
+.loaderi.four {
     top: 45%;
     left: 440px;
 }
-.loader .two, .three {
+.loaderi.two, .loader.three {
     animation: tl 4s ease-in-out infinite;
     -webkit-animation: tl 3s ease-in-out infinite;
 }
-.loader .one {
+.loader.one {
     transform-origin: bottom right;
     background-color: red;
     top: 4%
 }
-.loader .two {
+.loaderi.two {
     transform-origin: bottom left;
     background-color: blue;
     top: 4%
 }
-.loader .three {
+.loaderi.three {
     transform-origin: top right;
     background-color: green;
 }
 
-.loader .four {
+.loaderi.four {
     transform-origin: top left;
     background-color: yellow;
 }
@@ -87,7 +87,7 @@ body {
     -o-transform: rotate(0);
 }
 }
-.loader .one, .four {
+.loaderi.one, .loaderi.four {
     animation: tl 4s ease-in-out infinite;
     -webkit-animation: tb 3s ease-in-out infinite;
 }
