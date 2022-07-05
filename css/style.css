@@ -40,7 +40,7 @@ body {
     animation: tl 4s ease-in-out infinite;
     -webkit-animation: tl 3s ease-in-out infinite;
 }
-.loader.one {
+.loaderi.one {
     transform-origin: bottom right;
     background-color: red;
     top: 4%
