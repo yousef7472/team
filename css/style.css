@@ -864,7 +864,7 @@ section .container-top {
   }
 }
 /*            start logos and subscribe style             */
-.one{
+.subscribe {
     background: #E3E4FA;
     width: 90%;
     margin: auto;
@@ -873,7 +873,7 @@ section .container-top {
     position: relative;
     border-radius: 60px 0px 60px;
 }
-.one i {
+.subscribe i {
     font-size: 25px;
     position: absolute;
     right: 1px;
@@ -883,12 +883,12 @@ section .container-top {
     padding: 10px;
     border-radius: 50%;
 }
-.one .input {
+.subscribe .input {
     width: 70%;
     border: none;
     padding: 10px;
 }
-.one .sub {
+.subscribe .sub {
     color: white;
     padding: 10px 15px;
     border-radius: 10px;
@@ -897,12 +897,12 @@ section .container-top {
     background: #FF8040;
     transition: all .3s ease-in-out;
 }
-.one .sub:hover {
+.subscribe .sub:hover {
     color: #FF8040;
     background-color: white;
     border: 1px solid #FF8040;
 }
-.one h2 {
+.subscribe h2 {
     color: gray;
 }
 .logos {
@@ -927,17 +927,17 @@ section .container-top {
     .logos img {
         padding: 10px;
      }
-    .one h2 {
+    .subscribe h2 {
         font-size: 18px;
     }
-    .one i {
+    .subscribe i {
         font-size: 18px;
     }
-    .one .input {
+    .subscribe .input {
         width: 65%;
         padding: 4px;
     }
-    .one input.sub {
+    .subscribe input.sub {
         padding: 5px 9px;
     }
 }
@@ -946,13 +946,13 @@ section .container-top {
         width: calc(95% / 5);
         margin: 15px;
     }
-    .one {
+    .subscribe {
         padding: 30px;
     }
-    .one h2 {
+    .subscribe h2 {
         font-size: 15px;
     }
-    .one .input {
+    .subscribe .input {
         width: 55%;
     }
     
