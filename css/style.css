@@ -7,6 +7,121 @@
 body {
     font-family: 'Varela Round', sans-serif;
 }
+/*             start loader style          */ 
+.loader {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.loaderi {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: 1px solid #eee;
+}
+.loader .two {
+    left: 440px;
+}
+.loader .one {
+    left: 400px;
+}
+.loader .three {
+    top: 45%;
+    left: 400px;
+}
+.loader .four {
+    top: 45%;
+    left: 440px;
+}
+.loader .two, .three {
+    animation: tl 4s ease-in-out infinite;
+    -webkit-animation: tl 3s ease-in-out infinite;
+}
+.loader .one {
+    transform-origin: bottom right;
+    background-color: red;
+    top: 4%
+}
+.loader .two {
+    transform-origin: bottom left;
+    background-color: blue;
+    top: 4%
+}
+.loader .three {
+    transform-origin: top right;
+    background-color: green;
+}
+
+.loader .four {
+    transform-origin: top left;
+    background-color: yellow;
+}
+@keyframes tl {
+    0% {
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+}
+20% {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+40% {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+60% {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+}
+}
+.loader .one, .four {
+    animation: tl 4s ease-in-out infinite;
+    -webkit-animation: tb 3s ease-in-out infinite;
+}
+@keyframes tb {
+    20% {
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+}
+40% {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+60% {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+80% {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+}
+}
+/*           end loader style        */ 
 
 /*             start nav bar          */
 
